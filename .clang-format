@@ -101,7 +101,7 @@ AllowShortLoopsOnASingleLine: false
 # Deprecated, 废弃定义, 设置为None即可
 AlwaysBreakAfterDefinitionReturnType: None
 # 函数返回类型后是否换行, 诡异的定义, 请设置为None即可// # 总是在返回类型后换行: None, All, TopLevel(顶级函数，不包括在类中的函数), 
-AlwaysBreakAfterReturnType: TopLevel
+AlwaysBreakAfterReturnType: All
 # 多常量字符串定义是, 是否在第一个字符串常量前换行, true/false, 建议false
 AlwaysBreakBeforeMultilineStrings: false
 # 模板声明换行风格, 可选值:
