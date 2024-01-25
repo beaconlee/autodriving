@@ -25,6 +25,7 @@ Checks: '-*,
   misc-const-correctness,
   modernize-avoid-c-arrays,
   -modernize-use-trailing-return-type,
+  -bugprone-easily-swappable-parameters,
   modernize-use-using'
 CheckOptions:
   - key: readability-function-cognitive-complexity.IgnoreMacros
