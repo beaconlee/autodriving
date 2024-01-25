@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 set(CMAKE_CXX_COMPILER "clang++")
 
-project(beginning_linux)
+project(beginning_autodriving)
 
 
 set(CLANG_DEFAULT_RTLIB "compiler-rt")
@@ -15,3 +15,7 @@ SET(CMAKE_CXX_DEBUG_ARGUMENTS "--interpreter=mi")
 
 include_directories(${CMAKE_SOURCE_DIR}/third_party)
 include_directories(${CMAKE_SOURCE_DIR}/include)
+
+
+add_subdirectory(${CMAKE_SOURCE_DIR}/src/raylib_demo)
+add_subdirectory(${CMAKE_SOURCE_DIR}/src/eigen)
