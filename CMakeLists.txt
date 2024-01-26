@@ -17,4 +17,4 @@ include_directories(${CMAKE_SOURCE_DIR}/third_party)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 
-add_subdirectory(${CMAKE_SOURCE_DIR}/src/sdl2/)
+add_subdirectory(${CMAKE_SOURCE_DIR}/src/sdl2/demo)
